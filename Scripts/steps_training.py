@@ -38,7 +38,9 @@ if __name__ == '__main__':
                block_img_type + " " + \
                str(block_size) + " " + \
                str(block_num) + " " + \
-               str(vali_rate)
+               str(vali_rate) + " " + \
+               img_mode + " " + \
+               color_mode
     print(command1)
     os.system(command1)
 

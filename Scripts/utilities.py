@@ -21,6 +21,7 @@ def readRaw(img_path):
 
 
 def readImg(img_path, img_mode):
+    print(img_mode)
     # 如果是Raw的文件，用Rawpy读取，否则的话用OpenCV读取
     if img_mode.__contains__("raw") or img_mode.__contains__("RAW") or img_mode.__contains__("Raw"):
         img = readRaw(img_path)

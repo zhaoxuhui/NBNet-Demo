@@ -32,7 +32,9 @@ if __name__ == '__main__':
                out_block_type + " " + \
                str(block_width) + " " + \
                str(block_height) + " " + \
-               str(overlapping)
+               str(overlapping) + " " + \
+               img_mode + " " + \
+               color_mode
     print(command1)
     os.system(command1)
 
